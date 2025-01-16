@@ -1,0 +1,21 @@
+{
+    "My Flutter Widget": {
+        "body": [
+            "import 'package:p2p_test/ui/core/ui_exporter.dart';",
+            "",
+            "class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} extends ConsumerWidget {",
+            "\tconst ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} ({super.key});",
+            "",
+            "\t@override",
+            "\tWidget build(BuildContext context, WidgetRef ref) {",
+            "\t\treturn const Placeholder();",
+            "\t}",
+            "}"
+        ],
+        "prefix": [
+            "abst",
+            "abs",
+        ],
+        "description": "Create a new MyWidget"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "Json用Freezed": {
+      "body": [
+          "import 'package:riverpod_annotation/riverpod_annotation.dart';",
+          "",
+          "part '$TM_FILENAME_BASE.g.dart';",
+          "",
+          "@riverpod",
+          "class ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} extends _$${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g} {",
+          "  @override",
+          "  ${1:State} build() {",
+          "    return ${1:State}();",
+          "  }",
+          "}",
+      ],
+      "prefix": [
+          "notifer",
+          "not"
+      ],
+      "description": "Create Notifier Class"
+  },
+}

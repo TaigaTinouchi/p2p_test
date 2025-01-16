@@ -1,0 +1,19 @@
+{
+  "Json用Freezed": {
+      "body": [
+          "import 'package:hive_ce_flutter/hive_flutter.dart';",
+          "",
+          "class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} extends HiveObject {",
+          "  ${1}({",
+          "    required ${2:this.id},",
+          "  });",
+          "",
+          "  String id;",
+          "}"
+      ],
+      "prefix": [
+          "hive",
+      ],
+      "description": "Create Hive Object"
+  },
+}
