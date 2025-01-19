@@ -1,8 +1,8 @@
+import 'package:p2p_test/app.dart';
 import 'package:p2p_test/riverpod/firebase/auth/auth.dart';
 import 'package:p2p_test/riverpod/theme/theme.dart';
 import 'package:p2p_test/ui/components/tool/qr_code_reader.dart';
 import 'package:qr_flutter/qr_flutter.dart';
-import 'package:p2p_test/main.dart';
 import 'package:p2p_test/ui/components/dialog/dialog_util.dart';
 import 'package:p2p_test/ui/core/ui_exporter.dart';
 
